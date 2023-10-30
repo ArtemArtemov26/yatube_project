@@ -1,4 +1,5 @@
 # yatube_project
+
 ### Description
 Social network for bloggers
 
@@ -18,3 +19,4 @@ python3 manage.py runserver
 ```
 ### Author
 Artem Artemov
+
