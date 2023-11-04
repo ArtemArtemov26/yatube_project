@@ -5,8 +5,11 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Main page")
+    template = 'posts/index.html'
+    return render(request, template)
 
 
-def group_posts(request, slug):
-    return HttpResponse(f'Post: {slug}')
+def group_posts(request):
+    template = 'posts/group_list.html'
+    return render(request, template)
+    # return HttpResponse(f'Post: {slug}')
